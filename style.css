@@ -23,6 +23,10 @@ body {
   max-width: 840px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
 
 header {
@@ -58,4 +62,47 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.color-option__box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.color-option__box button {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  border: 1px solid white;
+}
+
+.bila {
+  background-color: white;
+}
+
+.cerna {
+  background-color: black;
+}
+
+.cervena {
+  background-color: rgb(205, 67, 67);
+}
+
+.modra {
+  background-color: rgb(34, 116, 202);
+}
+
+.colorName {
+  display: flex;
+  justify-content: space-between;
+}
+
+.objednat {
+  display: block;
+  height: 40px;
+  width: 140px;
+  border-radius: 35px;
+  border: 1px solid white;
+  color: white;
+  background-color: #141518;
 }

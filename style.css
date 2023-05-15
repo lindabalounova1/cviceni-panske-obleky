@@ -73,15 +73,15 @@ h1.site-title span {
   border-radius: 50%;
   width: 35px;
   height: 35px;
-  border: 1px solid white;
+  border: 1px solid #ffffff;
 }
 
 .bila {
   background-color: white;
 }
 
-.cerna {
-  background-color: black;
+.seda {
+  background-color: grey;
 }
 
 .cervena {
